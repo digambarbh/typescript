@@ -49,3 +49,25 @@ console.log(score);
 
 let direction:"north" |"south" |"east" | "west";
 // the direction variable only holds these specific values 
+
+
+
+//arrays and a tuples .
+let marks:number[]=[10,56,42];
+
+let names:Array<String>=["alice","bob"];
+
+console.log(marks);
+
+//tuples stores a diffrent types of dataa 
+
+let user:[string,number]=["digambar",06];
+
+// it has a fixed length and a fixed type per position . 
+// if position decleard ["string","number"] and decleard like [20,"diga"] we will get a error . 
+
+// object
+let empinfo:{name:string; empid:number}={
+    name:"digmabar",
+    empid:25658
+}
